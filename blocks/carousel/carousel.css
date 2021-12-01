@@ -9,19 +9,12 @@
     }
 }
 
-
-
-/*
-    Strive for more D.R.Y. code
-    Combine media queries and selectors if it sets the same attribs:
-*/
 /* Hides scroll tip */
 @media (min-width: 768px) {
     .home-view-container .scroll-tip-container {
         display: none;
     }
 }
-
 /* end of scroll tip media queries */
 
 
@@ -145,7 +138,6 @@
 .carousel .carousel__actions button{
     z-index: 2;
 }
-
 
 .carousel .carousel__actions {
     display: flex;
@@ -369,6 +361,7 @@
         margin: 2em 0;
     }
 }
+
 @media (max-width: 1920px) and (min-width: 1025px){
     body > main > div > div > div.carousel.block.full-bleed{
         height: 100%;
@@ -400,11 +393,13 @@
         margin: 2em 0;
     }
 }
+
 @media (max-width: 1650px) and (min-width: 1441px){
     .carousel .carousel__item--visible a.carousel-link{
         grid-template-columns: 27.25em 34.25em;
     }
 }
+
 @media (max-width: 1440px) and (min-width: 1025px){
     .carousel .carousel__item--visible a.carousel-link{
         grid-template-columns: 27.25em  25.25em;

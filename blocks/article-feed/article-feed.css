@@ -2,13 +2,13 @@ main .article-feed-container > div {
     max-width: unset;
   }
   
-  main .article-feed.appear {
+main .article-feed.appear {
     visibility: unset;
     min-height: unset;
     text-align: center;
   }
   
-  main .article-feed .article-cards {
+main .article-feed .article-cards {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -18,7 +18,7 @@ main .article-feed-container > div {
     max-width: 1200px;
   }
   
-  @media (min-width: 600px) {
+@media (min-width: 600px) {
     main .article-cards {
       padding-left: 0;
       padding-right: 0;
@@ -26,7 +26,7 @@ main .article-feed-container > div {
     }
   }
   
-  main .article-feed .load-more {
+main .article-feed .load-more {
     margin-top: 0;
     margin-bottom: 64px;
   }

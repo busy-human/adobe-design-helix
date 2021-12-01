@@ -17,23 +17,6 @@ export default async function makeSimilarOpportunitiesBlock($block) {
 
     let elementsArray = [];
 
-    // placeholderStuff.forEach(
-    //     obj => {
-    //         if(locationsArr.indexOf(obj.city) < 0) locationsArr.push(obj.city);
-    //         elementsArray.push(
-    //             $element("div.job",[
-    //                 $element("div.left",[
-    //                     $element("div.title", obj.title),
-    //                     $element("div.sub-title", `${obj.product} | ${obj.posType}`),
-    //                 ]),
-    //                 $element("div.right",[
-    //                     $element("div.department", obj.department),
-    //                     $element("div.city", obj.city),
-    //                 ]),
-    //             ])
-    //         )
-    //     }
-    // )
     placeholderStuff.forEach(
         obj => {
             if(locationsArr.indexOf(obj.city) < 0) locationsArr.push(obj.city);
@@ -63,9 +46,6 @@ export default async function makeSimilarOpportunitiesBlock($block) {
     const  $container_elm = $element("div.opp-block", [
         $element("div.opp-container.full-bleed", [
             $element("div.header-c",[
-                /* Oct 8th design: included location and job counts: */
-                /* $element("div.count",`${job_count} Job${job_count>1?"s":""}`), */
-                /* $element("div.location",`${unique_location_count} Location${unique_location_count>1?"s":""}`), */
                 $element("p.title", "Similar opportunities")
             ]),
             $element("div.psns-container", elementsArray)

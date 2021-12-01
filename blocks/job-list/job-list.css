@@ -50,7 +50,7 @@
     margin-block: unset;
 }
 .job-list .single-job h3{
-    font-weight: 300; /*Currently we only have vars for 200 and 400*/
+    font-weight: 300;
     font-size: 1.7em;
 }
 .job-list .single-job p:nth-of-type(1){

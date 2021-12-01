@@ -6,8 +6,6 @@ import { fetchFragment } from "../../scripts/helpers.js";
 
  */
 
-// import { fetchFragment } from "./helpers.js";
-
 const REL_PATH = "equal-opportunity-policy-stmnt";
 const RE_CLEAN_URL = /[^a-z0-9]/gi;
 /**

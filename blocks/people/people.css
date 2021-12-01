@@ -82,23 +82,6 @@
     .people {
         display:none
     }
-
-    /* .people {
-        flex-direction: column;
-        margin-bottom: 0;
-    }
-    .person {
-        width: auto;
-        margin-right: 0;
-        margin-bottom: 16px;
-    }
-    .person .name {
-        font-size: clamp(1em, 6vw, 1.8em);
-        font-weight: var(--weight-regular);
-    }
-    .person .title {
-        font-size: clamp(0.5em, 3vw, 1em);
-    } */
 }
 
 @media (max-width: 1920px) and (min-width: 1025px){

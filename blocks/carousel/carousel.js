@@ -128,6 +128,7 @@ export default async function decorate($block) {
     }
     applySlide();
   }
+
   function updateSlidePositionRev() {
     for (let i = 0; i < slides.length; i++) {
       if (slides[i].classList.contains('carousel__item--visible')) {
@@ -136,20 +137,16 @@ export default async function decorate($block) {
           slides[i].classList.remove('carousel__item--visible', "visible-animation-rev", "visible-animation");
           slides[i].classList.remove('opacity-zero-rev');
         }, ANIMATION_TIME);
-
       }
 
       if (i === slidePosition) {
         setTimeout(() => {
           slides[i].classList.add('carousel__item--visible', "visible-animation-rev");
         }, ANIMATION_TIME);
-
       }
     }
 
-
     applySlide();
-
   }
 
   function moveToNextSlide() {

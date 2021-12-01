@@ -107,8 +107,7 @@
     }
     #global-footer > div > nav:nth-of-type(3) > p:nth-child(2) {
         display: none;
-    }
-    
+    } 
 }
 
 body:not(.loaded) #global-footer {

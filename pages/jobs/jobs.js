@@ -10,11 +10,6 @@ export default async function decorate($main) {
 
     var jobs = document.querySelector("body > main");
     jobs.classList.add("jobs")
-    /* jobs.forEach(t => {
-      if( t.querySelector("p") ) {
-        t.classList.add("article-picture");
-      }
-    }); */
 
     var content = jobs.querySelector("div > div")
 
@@ -118,7 +113,6 @@ function buildJobListings(job){
   return jobBlock
 }
 
-/* Currently expecting location property to be an array of all locations for the job posting */
 function formatLocation(location){
   if(!location)
     location = ["[LOCATION MISSING]"]
@@ -142,49 +136,3 @@ function formatLocation(location){
 
   return formatString;
 }
-
-
-    /* var dummyJobs = [
-      {
-        title: "User Experience Design(Contractor)",
-        location: ["San Francisco", "San Jose", "Seattle"],
-        team: "Adobe Spark",
-        section: "Experience Design",
-        link: "/"
-      },
-      {
-        title: "User Experience Design(Contractor)",
-        location: ["San Francisco", "San Jose", "Seattle"],
-        team: "Adobe Spark",
-        section: "Experience Design",
-        link: "/"
-      },
-      {
-        title: "Sr Content Strategist",
-        location: "Los Angeles",
-        team: "Adobe Spark",
-        section: "Content Strategy",
-        link: "/"
-      },
-      {
-        title: "Jr Team Operator",
-        location: "Salt Lake City",
-        team: "Adobe Helix",
-        section: "Team Operations",
-        link: "/"
-      },
-      {
-        title: "Jr Design Operator",
-        location: "Orem",
-        team: "Adobe Spark",
-        section: "Design Operations",
-        link: "/"
-      },
-      {
-        title: "Prototyping and Engineering Intern",
-        location: "New York City",
-        team: "Adobe Spark",
-        section: "Prototyping and Engineering",
-        link: "/"
-      }
-    ] */

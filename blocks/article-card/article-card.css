@@ -8,11 +8,11 @@
     /* Ensure Article Card doesn't cut off content on short desktop screens */
     .article-card.block{
         font-size: 1rem;
-        /* height:56em; */
         overflow:hidden;
         min-width: 62.5em;
     }
 }
+
 /* --- SET FONT SIZE (em)s HERE: ---*/
 /* All following/decendant em measurements will be based on this font-size: */
 @media screen and (min-width: 700px) and (max-width: 1025px) {
@@ -27,9 +27,6 @@
 }
 
 /* ------- BLOCK CONTENT ------- */
-.article-card.block .block-content{
-    /* height:100%; */
-}
 .article-card.block .block-content > a{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -46,6 +43,7 @@
         grid-row: 1/2;
     }
 }
+
 /* ------- IMAGE & TEXT ------- */
 .article-card.block .text{
     display: flex;
@@ -63,13 +61,11 @@
     background-position: center;
 }
 
-
 .article-card.block:nth-of-type(even) .image:not(.right),
 .article-card.block .image.left{
     grid-row: 1;
     grid-column: 1/2;
 }
-
 
 @media screen and (max-width: 700px) {
     .article-card.block .block-content .text,
@@ -102,7 +98,6 @@
 }
 @media screen and (max-width: 1024px) {
     .article-card.block .text .tag-link{
-        
         line-height: 1.5em;
         height: 1.5em;
     }
@@ -147,7 +142,6 @@
 .article-card.block .text .hed {
     font-family: var(--sans-serif-font);
 }
-
 
 /*
  * SubHeader h3 dek
@@ -236,7 +230,6 @@ body > main > .stories-link > .text > div:nth-child(9) > div > a > div.text > di
     .article-card.block .text .dek{
         font-size: 1.7em;
     }
-    
 }
 @media (max-width: 768px) and (min-width: 426px){
     .article-card.block{
@@ -253,9 +246,8 @@ body > main > .stories-link > .text > div:nth-child(9) > div > a > div.text > di
     }
 }
 
+
 /*  MOBILE  */
-
-
 @media (max-width: 425px) and (min-width: 415px){
     .article-card.block{
         width: 415px;

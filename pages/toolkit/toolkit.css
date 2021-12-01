@@ -26,33 +26,8 @@
 }
 
 .toolkit-page-content{
-    /* padding: 30px 30px 1px 30px; */
     box-sizing: border-box;  
 }
-
-/* .toolkit .toolkit-page-content > .article-card.block{
-    min-width: unset;
-    margin: 10px 0px 10px 0px
-}
-
-.toolkit .toolkit-page-content > .article-card.block .text .hed{
-    width: 70%;
-    font-size: 3em;
-    margin-bottom: .75em;
-    font-weight: var(--weight-black);
-    overflow: unset;
-}
-.toolkit .toolkit-page-content > .article-card.block .text .dek{
-    font-size: 1em;
-    line-height: 1.5em;
-    font-weight: var(--weight-light);
-    max-width: 93%;
-}
-
-.toolkit .toolkit-page-content > .article-card.block .text .tag-link,
-.toolkit .toolkit-page-content > .article-card.block .text .byline{
-    display: none;
-} */
 
 .toolkit-page-content > p {
     background: #FFFFFF;

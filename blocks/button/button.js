@@ -20,6 +20,7 @@ export default function addButton(
   classList = 'unfilled',
   textColor = 'white',
 ) {
+
   /** Normalize class list to be a string: */
   if(!!classList && typeof classList === 'array') classList.join(" ");
 
@@ -44,8 +45,8 @@ export function addArrowButton(
   direction = 'next',
   // action = defaultAction,
 ) {
-  /** Normalize class list to be a string: */
 
+  /** Normalize class list to be a string: */
   let button = document.createElement("button");
 
   // button.addEventListener("click", action)

@@ -1,8 +1,3 @@
-/*
- *   Copyright (c) 2021 Busy Human LLC
- *   All rights reserved.
- *   This file, its contents, concepts, methods, behavior, and operation  (collectively the \"Software\") are protected by trade secret, patent,  and copyright laws. The use of the Software is governed by a license  agreement. Disclosure of the Software to third parties, in any form,  in whole or in part, is expressly prohibited except as authorized by  the license agreement.
- */
 import {
     convertToBackground,
     $element,
@@ -33,10 +28,9 @@ import {
        * $byline : Author | Author's Position
        */
     const $text = $element('.text');
-    // const $tag = decorateTagLink( $element('div', `#${props.tag}`), { color: 'black' } );
-    // $tag.innerHTML = $tag.innerHTML.replace(/[A-Za-z ]+/gm, '<span class="tag">$&</span>')
     const $hed = $element('.hed', props.hed);
     const DEK_TEXT_LIMIT = 75;
+    
     let dekText = props.dek;
     if(truncateDekText){
       dekText = props.dek.length<DEK_TEXT_LIMIT ? props.dek:props.dek.substring(0,DEK_TEXT_LIMIT-3)+'...';

@@ -4,23 +4,6 @@ export default function decorate($main) {
     var team = document.querySelector("body > main");
     var tagline = document.querySelector("body > main > div > div > h2:nth-child(6)")
     team.classList.add("teams")
-    /* team.forEach(t => {
-      if( t.querySelector("p") ) {
-        t.classList.add("article-picture");
-      }
-    }); */
-
-    /*
-    =====================WARNING======================
-    This page oranization is dependant on a few things
-
-    -P tags are not contained in the title section
-    -H3s are not included in the page until the teams cards
-    -All team-cards start with an H3
-    -The First H2 ends the Team Cards section
-
-    If any of these change, this function will need to be updated
-    */
 
     var content = team.querySelector(":scope > div:first-child > div:first-child")
 

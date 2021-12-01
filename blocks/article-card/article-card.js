@@ -54,7 +54,6 @@ export default async function decorate($block) {
   }
   const $hed = $element('.hed', hedText);
   const $dek = $element('.dek', dekText);
-
   const $byline = $element('.byline');
 
   /** if props.author exists: */
@@ -75,6 +74,7 @@ export default async function decorate($block) {
   $block.style.backgroundColor = props.background;
   $block.style.color = props.textcolor;
 
+  
   /* ---------  - IMAGES - ---------  */
   /**
      * Remove image and place on proper side:

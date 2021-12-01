@@ -52,7 +52,6 @@ export default async function decorator($main) {
         
         for(let i = 0; i<count && storyCount<stories.length;){
             let story = stories[storyCount]
-            //let author = await lookupAuthor(story.author)
             $results.append(buildStory(story));
             i++;
             storyCount++;

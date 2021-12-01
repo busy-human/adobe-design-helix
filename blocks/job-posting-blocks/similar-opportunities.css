@@ -68,14 +68,6 @@
     height: 3em;
 }
 
-/* .similarOpps-block .psns-container{
-    display: grid;
-    gap: 0 6em;
-    grid-template-columns: repeat(2, 24em);
-    grid-template-rows: repeat(auto-fill, 4.69em);
-    grid-auto-flow: row dense;
-} */
-
 .similarOpps-block .psns-container{
     display: grid;
     grid-auto-flow: row dense;
@@ -96,7 +88,6 @@
 @media screen and (min-width: 1001px) {
     .similarOpps-block .psns-container{
         gap: 0 6em; /* = 245px/30.7 */
-        /* grid-template-columns: repeat(2, 1fr); */
         grid-template-columns: repeat(2, 24em);
     }
 }
@@ -104,7 +95,6 @@
 
 
 .similarOpps-block .psns-container div.job{
-    /* border-bottom: 3px solid #ffffff; */
     height: 4.8em; /* = 144px / 30.7 */
     width: 22.6em;
     grid-column: span 1;
@@ -132,19 +122,6 @@
     border-radius: 1px;
 }
 
-/* .similarOpps-block .psns-container div.job div.left,
-.similarOpps-block .psns-container div.job div.right{
-    width: 100%;
-    grid-column: span 1;
-    grid-row: span 1;
-    padding: 0px;
-    height: fit-content;
-    grid-template-rows: 1em 0.5em;
-    gap: 1em 0em;
-    display: grid; */
-    /* grid-row: span 1; */
-/* } */
-
 .similarOpps-block .department,
 .similarOpps-block .city,
 .similarOpps-block .title,
@@ -156,9 +133,6 @@
     padding: 0px;
     align-items: end;
 }
-
-
-
 
 .similarOpps-block .title{
     font-size: 1em;

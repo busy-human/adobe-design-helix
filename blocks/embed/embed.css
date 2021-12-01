@@ -18,15 +18,15 @@ main .embed {
     margin: 0 auto 64px;
   }
   
-  main .embed img {
+main .embed img {
     max-width: 100%;
   }
   
-  main .embed.embed-instagram {
+main .embed.embed-instagram {
     max-width: fit-content;
   }
   
-  main .embed.embed-instagram iframe.instagram-media {
+main .embed.embed-instagram iframe.instagram-media {
     border: 1px solid var(--color-gray-200);
     background: white;
     border-radius: 4px;
@@ -34,25 +34,25 @@ main .embed {
     width: 320px;
   }
   
-  @media (min-width: 600px) {
-      main .embed.embed-instagram {
-          max-height: unset; 
+@media (min-width: 600px) {
+    main .embed.embed-instagram {
+        max-height: unset; 
       }
-      main .embed.embed-instagram iframe.instagram-media {
-          width: 550px;
-          height: 758px;
+    main .embed.embed-instagram iframe.instagram-media {
+        width: 550px;
+        height: 758px;
       }
   }
   
-  main .embed.embed-twitter {
+main .embed.embed-twitter {
     max-height: unset;
   }
   
-  main .embed.embed-tiktok {
+main .embed.embed-tiktok {
     max-height: unset;
   }
   
-  main .embed.embed-twitter .twitter-tweet-rendered {
+main .embed.embed-twitter .twitter-tweet-rendered {
     margin-left: auto;
     margin-right: auto;
   }

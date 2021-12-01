@@ -1,18 +1,7 @@
 /* --------------- START Sticky   Container Block --------------- */
 
-/* .job-post .left-block{
-    background-color: white;
-    height: 100%;
-} */
-
-
 .job-post .sticky-container{
     display: block;
-    /* position: sticky; */
-    /* top: 0px; */
-    /* right: 50vw; */
-    /* height: 100%; */
-    /* height: max-content; */
     box-sizing: border-box;
 }
 @media screen and (max-width: 1300px) {
@@ -36,10 +25,10 @@
         box-sizing: border-box;
     }
 }
-
 /* --------------- END   Sticky   Container Block --------------- */
-/* --------------- START Sticky Blue Header Block --------------- */
 
+
+/* --------------- START Sticky Blue Header Block --------------- */
 
 .job-post .header-block{
     height: 35.5em;
@@ -104,8 +93,6 @@
                 calc(100vw - 20px)
             );
         margin-left: 5.6875em;
-        /* margin-right: 5.6875em; */
-        /* margin-left: auto;*/
         margin-right: auto;
         margin: auto;
     }
@@ -143,17 +130,10 @@
         font-family: var(--sans-serif-font);
     }
 }
-
-
-
-
-
-
-
 /* --------------- END   Sticky Blue Header Block --------------- */
 
-/* --------------- START Suggested Articles Block --------------- */
 
+/* --------------- START Suggested Articles Block --------------- */
 .job-post .side-articles,
 .job-post .side-articles-container{
     height: 100%;
@@ -178,18 +158,11 @@
     font-size: 30.7px;
     width:  15em;
     height: 24em;
-
-    /* max-height: 26.9em; */
     padding: 2.5em .67em ;
-    /* margin: 3.88em 11.56em 5.08em auto; */
     display: grid;
-    /* align-items: center; */
-
     justify-items: center;
-
     flex-direction: column;
     box-sizing: border-box;
-    /* gap: 2em; */
 }
 
 @media screen and (max-width: 1000px) {
@@ -200,18 +173,12 @@
 }
 
 @media screen and (min-width: 1000px) {
-    .job-post .side-articles-container,
-    .job-post .side-articles,
-    .job-post .artcl-card{
-    }
     .job-post .artcl-card{
         height: 24em;
     }
 }
 
 @media screen and (min-width: 1920px) {
-    /* .job-post .side-articles-container, */
-    /* .job-post .side-articles, */
     .job-post .artcl-card{
         height: 24em;
     }
@@ -223,7 +190,6 @@
 
 
 .job-post .artcl-card .tag-link{
-    /* margin: 1.1em auto 1.1em 0; */
     margin: 0 auto 0 0;
     color:#ffffff;
     text-decoration: underline solid 4px#ffffff;
@@ -231,12 +197,9 @@
 }
 
 .job-post .artcl-card .artcl-img{
-    /* width: 12.9em; */
     height:  8.6em;
     min-height: 8.6em;
     overflow: hidden;
-    /* background-size: cover; */
-    /* margin: 1.1em 0; */
     box-sizing: border-box;
 }
 
@@ -246,17 +209,14 @@
     width: auto;
     overflow: hidden;
     margin: auto;
-    /* background-size: cover; */
 }
 
 .job-post .artcl-card .artcl-title,
 .job-post .artcl-card .written-date{
-    /* margin: 1.6em 0px 3em 0px; */
     text-align: center;
 }
 
 .job-post .artcl-card .artcl-title{
-    /* margin: 1.6em 0px 0px 0px; */
     font-size:   1.3em;
     line-height: 1.125em;
     height: 3em;
@@ -264,8 +224,6 @@
 }
 
 .job-post .artcl-card .written-date{
-    /* margin: 3em auto 2.4em auto; */
-    /* margin: 0 auto; */
     font-size:   0.72em;
     line-height: 1.125em;
 }

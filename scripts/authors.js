@@ -11,10 +11,7 @@ export async function lookupAuthor(name) {
         let parsed = parser.parseFromString(bio, 'text/html')
         const position = getMetadataFromOutsideDoc('position',parsed) || getMetadataFromOutsideDoc('title',parsed);
         const image = getMetadataFromOutsideDoc('image',parsed);
-        // console.log(" BIO, authors.js: ", bio,
-        //  '\n - \n - \n - position: ', position,
-        //  '\n - \n - \n - image: ', image,
-        //  '\n - \n - \n - parsed: ', parsed)
+        
         return {
             bio,
             name,
